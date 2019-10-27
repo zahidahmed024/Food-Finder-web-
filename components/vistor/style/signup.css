@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-image: url('https://pune365.com/wp-content/uploads/2017/02/30287438_l.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+width: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+.bd{
+	margin-top: 40px;
+	border-color:1px solid black;
+
+}
+.b{
+	box-shadow: 0 0 20px 6px black
+}
+.card-body{
+background-color: #29070cd9;
+color: white;
+
+}
+.navbar{
+background-color: #fffb8dfa!important;
+border-bottom:1px solid black;
+    box-shadow: 0 0 20px 2px black;
+}

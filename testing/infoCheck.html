@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<form action="../components/information.php" method="post">
+
+<input type="text" name="restaurant_name" placeholder="restaurant_name..."><br>
+<input type="text" name="description" placeholder="description..."><br>
+<input type="time" name="starting_time" placeholder="starting_time..."><br>
+<input type="time" name="ending_time" placeholder="ending_time..."><br>
+<input type="number" name="contact" placeholder="contact..."><br>
+<input type="text" name="token" placeholder="token..."><br>
+<input type="submit" name="" value="submit">
+</form>
+
+<script src="axios.js"></script>
+<script type="text/javascript">
+
+//var data =[];
+// fetch('http://zahid8164.000webhostapp.com/zahid_api/components/itemByRes.php?token=5c08a9a8bcd89')
+//     .then((response) => response.json())
+//     .then((responseJson) => {
+//       // Alert.alert(responseJson);
+//     const data = responseJson.items;
+//           console.log(data);
+//         // this.setState({
+//         //   markers: responseJson.items,
+//         // })
+
+//     })
+
+// var token = '5be4969350aa7';
+//   axios.get('http://localhost/zahid_api/components/getInfo.php?token='+token,{
+//     headers:{'Accept' : 'application/json',
+// }
+
+// }
+//   )
+//   .then(function (response) {
+//     console.log(response.data);
+//   })
+//   .catch(function (error) {
+//     console.log(error);
+//   });
+
+
+    
+// var opts={
+//  token:'5c703736da0f8',
+//  item_id:'5c7037c333834',
+//  item_name:'5c88d254e3940',
+//  price:'5c88d254e3940',
+//  description:'5c88d254e3940',
+//  category:'s'
+// };
+
+//   fetch('http://zahid8164.000webhostapp.com/zahid_api/components/update.php', {
+//     method: 'post',
+//     body: JSON.stringify(opts)
+//   }).then(function(response) {
+//     return response.json();
+//   }).then(function(data) {
+//     console.log('Created Gist:', data.code);
+//   });
+
+  fetch(`http://zahid8164.000webhostapp.com/zahid_api/components/delete_item.php?token=${encodeURIComponent(token)}&image_dir=${encodeURIComponent(image_dir)}`,
+        {method: "GET"}
+        )
+		    .then(response => response.json())
+		    .then((data) => {
+		      
+         console.log(data.code);
+		    })
+
+</script>
+
+
+</body>
+</html>

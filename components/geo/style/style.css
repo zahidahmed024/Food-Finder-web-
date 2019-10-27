@@ -1,0 +1,124 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+body{
+  background-color: #D8EFEA;
+  margin: 0;
+  padding: 0;
+}
+.map-container {
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+    /*border-bottom:1px solid black;*/
+box-shadow: 0 0 5px 1px black;
+  }
+ 
+  .info{
+    background-color: red;
+    
+  }
+ #winImage{
+      width: 100px;
+      height: 100px;
+      border-radius: 10px; 
+  }
+  
+ .navbar{
+  color: black;
+background-color: #fffb8dfa!important;
+border-bottom:1px solid black;
+box-shadow: 0 0 10px 1px black;
+}
+
+ .inputs{
+  margin: 0 auto;
+  text-align: center;
+  padding: 3px;
+  /*padding: 10px;*/
+ }
+ input,select{
+  /*border-radius: 3px;*/
+/*box-shadow: 0 0 1px 1px black;*/
+
+ }
+ #test2{
+  overflow: hidden;
+ }
+ .list{
+  float: left;
+  overflow: hidden;
+width: 10%;
+ }
+ .list ol li{
+ box-shadow: 0 0 1px 1px black;
+        box-shadow: 0 0 1px 1px black;
+    background-color: #f8f9fa;
+    box-shadow: 0 0 5px black;
+ }
+ .list ol li:hover{
+ 
+    background-color: #08d3de;
+ }
+ .back{
+  background-color: red;
+ }
+ /*.map{
+  float: right;
+  overflow: hidden;
+  width: 70%; height: 500px;
+ }*/
+ .listc{
+  background-color: red;
+  border:1px solic red;
+  overflow: hidden;
+ }
+ .imgb{
+  width: 50px;
+  height: 50px;
+  float: left;
+ }
+ .listb{
+  float: right;
+ }
+
+
+.starrating > input {display: none;}  /* Remove radio buttons */
+
+.starrating  > label:before { 
+  content: "\f005"; /* Star */
+  margin: 2px;
+  font-size: 2em;
+  font-family: FontAwesome;
+  display: inline-block; 
+}
+
+.starrating > label
+{
+  color: #222222; /* Start color when not clicked */
+}
+
+.starrating > input:checked ~ label
+{ color: #ffca08 ; } /* Set yellow color when star checked */
+
+.starrating > input:hover ~ label
+{ color: #ffca08 ;  }
+
+.starrating2 > input {display: none;}  /* Remove radio buttons */
+
+.starrating2 > label:before { 
+  content: "\f005"; /* Star */
+  margin: 2px;
+  font-size: 2em;
+  font-family: FontAwesome;
+  display: inline-block; 
+}
+
+.starrating2 > label
+{
+  color: #222222; /* Start color when not clicked */
+}
+
+.starrating2 > input:checked ~ label
+{ color: #ffca08 ; } /* Set yellow color when star checked */
+
+.starrating2 > input:hover ~ label
+{ color: #ffca08 ;  }
